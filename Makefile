@@ -1,7 +1,7 @@
-all : duck-mask.stl
+all : duck-mask.stl duck-mask.png
 .PHONY: clean
 clean : 
-	rm -f *.png
+	rm -f *.png 
 
 %.stl: %.scad
 	openscad -o $@ -d $@.deps $<
