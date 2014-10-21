@@ -3,7 +3,8 @@ Duck face mask for the D-FI, October edition
 This uses [this duck from thingiverse][duck-stl].
 
 Just type 'make' to create the stl file (assumes openscad to be installed).
-Creates a 'duck-mask.stl'
+Creates a 'duck-mask.stl' and a 'duck-mask.png' view of the current version of
+the mask
 
 ![Duck-Mask][duck-mask]
 
