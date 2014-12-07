@@ -1,6 +1,6 @@
 module mirrormask(){
     import("Solid Half.stl",convexity=5);
-    mirror([0,0,1])rotate([0,0,0])translate([0,0,-27.125])import("Solid Half.stl",convexity=5);
+    mirror([0,0,1])rotate([0,0,0])translate([0,0,-27.125])import("stl/milohSolidHalf.stl",convexity=5);
 }
 module duckface() {
     rotate([0,91,90])scale([4,4,4])translate([-15,10,-53]) import("Rubber_Duck.stl", convexity=3);
